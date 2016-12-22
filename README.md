@@ -11,4 +11,4 @@ View the [wiki](//www.github.com/MalignantShadow/api-commands/wiki) for extensiv
 Unavailable at the moment. Soon!
 
 ##Dependencies:
-* [api-util](MalignantShadow/api-util)
+* [api-util](//www.github.com/MalignantShadow/api-util)
