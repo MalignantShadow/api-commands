@@ -271,7 +271,7 @@ public class CommandContext extends AttachableData {
 	@Override
 	public String toString() {
 		String format = "CommandContext{name=%s, %s}";
-		String args = ListUtil.join(getParsedArgs().getArgs(), (arg) -> arg.getArgument().getName() + "=\"" + arg.getInput() + "\"");
+		String args = ListUtil.join(getParsedArgs().getArgs(), (arg) -> arg.getArgument().getName() + "=\"" + arg.getValue() + "\"");
 		return String.format(format, _cmd.getName(), args);
 	}
 	
